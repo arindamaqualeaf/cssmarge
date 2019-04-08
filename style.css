@@ -9,58 +9,7 @@
 	text-rendering: optimizeLegibility;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-caption,
-section {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -85,8 +34,7 @@ body {
 	font-weight: 400;
 }
 
-a,
-button {
+a, button {
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
@@ -528,8 +476,7 @@ h6 {
 	padding: 0 !important;
 }
 
-section,
-.full {
+section, .full {
 	float: left;
 	width: 100%;
 }
@@ -695,10 +642,9 @@ header .rightPart ul {
 	height: 100%;
 }
 
-header .rightPart ul li {
-	/* width: auto; */
-	/* padding-right: 20px; */
-}
+/* header .rightPart ul li {	
+	padding-right: 20px;
+} */
 
 header .rightPart ul li:last-child {
 	padding-right: 0;
@@ -731,11 +677,12 @@ header .rightPart ul li a:hover {
 
 header .logo a {
 	display: block;
+	width: 100%;
 }
 
 header .logo a img {
-	display: block;
 	width: 100%;
+	display: block;
 }
 
 header .rightPart ul li .loginBtn {
@@ -836,8 +783,7 @@ header .rightPart ul li.loginImg a span img {
 	padding: 10px 0 50px;
 }
 
-.mapSlider.owl-carousel .owl-nav button.owl-next,
-.mapSlider.owl-carousel .owl-nav button.owl-prev {
+.mapSlider.owl-carousel .owl-nav button.owl-next, .mapSlider.owl-carousel .owl-nav button.owl-prev {
 	position: absolute;
 	top: 50%;
 	width: 40px;
@@ -852,15 +798,13 @@ header .rightPart ul li.loginImg a span img {
 	outline: none;
 }
 
-.mapSlider.owl-carousel .owl-nav button.owl-next:hover,
-.mapSlider.owl-carousel .owl-nav button.owl-prev:hover {
+.mapSlider.owl-carousel .owl-nav button.owl-next:hover, .mapSlider.owl-carousel .owl-nav button.owl-prev:hover {
 	background: #d60303;
 	;
 	color: #fff;
 }
 
-.mapSlider.owl-carousel .owl-nav button.owl-next span,
-.mapSlider.owl-carousel .owl-nav button.owl-prev span {
+.mapSlider.owl-carousel .owl-nav button.owl-next span, .mapSlider.owl-carousel .owl-nav button.owl-prev span {
 	font-size: 30px;
 	line-height: 30px;
 }
@@ -875,8 +819,7 @@ footer {
 	padding: 30px 0 40px;
 }
 
-.footerLeft,
-.footerRight {
+.footerLeft, .footerRight {
 	padding: 0 15px;
 }
 
@@ -919,9 +862,7 @@ footer {
 	line-height: 1.6;
 }
 
-.footermid ul li a:hover,
-.footerRight ul li a:hover,
-.priPol ul li a:hover {
+.footermid ul li a:hover, .footerRight ul li a:hover, .priPol ul li a:hover {
 	color: #f90000;
 }
 
@@ -1211,6 +1152,9 @@ footer {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .eachImgUploaded {
@@ -1264,7 +1208,6 @@ footer {
 
 .nwtdtlPrt h4 span {
 	font-weight: 400;
-
 }
 
 .nwtdtlPrt p {
@@ -1332,21 +1275,16 @@ footer {
 .policeCaseNo {
 	padding: 20px 24px 15px;
 	background: #f2f2f2;
-	border-bottom: 1px solid #dadada;
 }
-
 
 .sptvhiDtls {
-	padding: 15px 24px;
+	padding: 0 24px 15px;
 }
 
-.sptDtlsBtnSe,
-.vehiDtlsBtnSe {
+.sptDtlsBtnSe, .vehiDtlsBtnSe {
 	padding: 15px 0;
 	border-top: 1px solid #dadada;
 }
-
-.echSusVehiDtls {}
 
 .choClosed {
 	position: absolute;
@@ -1354,73 +1292,64 @@ footer {
 	right: 0;
 }
 
-.nameDeg {
-	background: #dddddd;
-	padding: 14px 15px;
-	border-radius: 6px;
-	margin: 15px 0;
-}
-
-.nameDeg h4 {
-	padding: 0;
-	font-size: 18px;
-	color: #000000;
-}
-
-.nameDeg h6 {
-	padding: 0;
-	font-size: 17px;
-	color: #000000;
-	font-weight: 400;
-}
-
-.wantSuptTop h6 {
-	font-size: 15px;
-	color: #000000;
-	text-transform: uppercase;
-}
-
-.wantSuptTop h5 {
+.optionalBtn {
 	font-size: 14px;
-	color: #fff;
-	text-transform: uppercase;
-	background: #5e5e5e;
-	display: inline-block;
-	padding: 5px 10px;
-	font-weight: 800;
-	border-radius: 4px;
+	color: #1da1f2;
+	margin-left: 5px;
+	font-family: 'Helvetica 45 Light';
 }
 
-.wantSuptTop p {
-	font-size: 17px;
-	font-weight: 600;
-	color: #000;
+.afrmGrp-1 {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
 }
 
-.wantSuptTop p.redColor {
+.afrmGrp-1 label {
 	font-size: 16px;
-	font-weight: 400;
-	color: #d60303;
+	margin-bottom: 5px;
+	font-family: 'Helvetica 45 Light';
 }
 
-.wantesSuspects article {
+.afrmGrp-1 label b {
+	margin-left: 5px;
+}
+
+.echSusVehiDtls {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dadada;
+}
+
+.arSelect {
+	background: #f6f6f6;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-color: #d7d7d7;
+	color: #999999;
+	font-family: 'Helvetica 45 Light';
 	font-size: 16px;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #e5e5e5 100%);
+	background: -webkit-linear-gradient(top, #fefefe 0%, #e5e5e5 100%);
+	background: linear-gradient(to bottom, #fefefe 0%, #e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e5e5e5', GradientType=0);
 }
 
-.wantesSuspects .row {}
-
-.wantesSuspects .row {
-	margin: 0 -7px;
+.arSelect:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #d7d7d7;
 }
 
-.wantesSuspects [class*="col-"] {
-	padding-right: 7px;
-	padding-left: 7px;
-	margin: 7px 0;
+.ainput2 {
+	background: #f6f6f6;
+	font-family: 'Helvetica 45 Light';
 }
 
-.wantesSuspects .imgContainer img {
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
+.arTextBox {
+	background: #f6f6f6;
+	border-color: #d7d7d7;
 }
